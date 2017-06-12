@@ -17,7 +17,7 @@
 // write your code here
 
 
-
+var person: (name: String, age: Int) = ("Felix", 23)
 
 
 
@@ -29,7 +29,7 @@
 // write your code here
 
 
-
+print("\(person.name) is \(person.age) years old")
 
 
 
@@ -40,6 +40,7 @@
  */
 // write your code here
 
+person.age = person.age + 1
 
 
 
@@ -53,7 +54,7 @@
 // write your code here
 
 
-
+print("\(person.name) is \(person.age) years old")
 
 
 
